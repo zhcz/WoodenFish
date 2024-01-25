@@ -6,31 +6,56 @@
 //
 
 import UIKit
-
+import FluentDarkModeKit
+import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var window: UIWindow? = nil
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        initWindow()
+        initDarkModel()
+        initIQKeyboard()
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    func initIQKeyboard() {
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.toolbarBarTintColor = UIColor(.dm,light: .tableViewBgC,dark: .tableViewBgC_dark)
+        IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "完成"
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    func initWindow() {
+        if #available(iOS 13.0, *) {
+            window = UIWindow.init(frame: UIScreen.main.bounds)
+            window?.rootViewController = UITabBarController()
+            window?.backgroundColor = .white
+            window?.makeKeyAndVisible()
+        }
+        
+        let nav = QMUINavigationController.init(rootViewController: ZHMuYuViewController())
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
     }
-
-
+    
+    //    初始化主题—
+    func initDarkModel() {
+        let configuration = DMEnvironmentConfiguration()
+        configuration.themeChangeHandler = {
+            print("theme changed")
+        }
+        if #available(iOS 13.0, *) {
+            configuration.windowThemeChangeHandler = { window in
+                print("\(window) theme changed")
+            }
+            configuration.useImageAsset = false
+        }
+        DarkModeManager.setup(with: configuration)
+        DarkModeManager.register(with: UIApplication.shared)
+        
+    }
+    
+    
+    
 }
 

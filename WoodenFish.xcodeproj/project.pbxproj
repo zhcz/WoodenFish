@@ -8,22 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		61AD061A2B60FFF100D2D585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06192B60FFF100D2D585 /* AppDelegate.swift */; };
-		61AD061C2B60FFF100D2D585 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD061B2B60FFF100D2D585 /* SceneDelegate.swift */; };
 		61AD061E2B60FFF100D2D585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD061D2B60FFF100D2D585 /* ViewController.swift */; };
 		61AD06212B60FFF100D2D585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AD061F2B60FFF100D2D585 /* Main.storyboard */; };
 		61AD06232B60FFF300D2D585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AD06222B60FFF300D2D585 /* Assets.xcassets */; };
 		61AD06262B60FFF300D2D585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AD06242B60FFF300D2D585 /* LaunchScreen.storyboard */; };
+		61AD06312B61001300D2D585 /* ZHMuYuVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD062D2B61001300D2D585 /* ZHMuYuVoiceView.swift */; };
+		61AD06322B61001300D2D585 /* ZHMuYuVoiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD062E2B61001300D2D585 /* ZHMuYuVoiceCollectionViewCell.swift */; };
+		61AD06332B61001300D2D585 /* ZHMuYuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD062F2B61001300D2D585 /* ZHMuYuViewController.swift */; };
+		61AD06342B61001300D2D585 /* ZHMuYuSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06302B61001300D2D585 /* ZHMuYuSettingViewController.swift */; };
+		61AD064C2B61009200D2D585 /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06382B61009200D2D585 /* PanModalPresentable+Defaults.swift */; };
+		61AD064D2B61009200D2D585 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06392B61009200D2D585 /* PanModalPresentable.swift */; };
+		61AD064E2B61009200D2D585 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD063A2B61009200D2D585 /* PanModalPresentable+LayoutHelpers.swift */; };
+		61AD064F2B61009200D2D585 /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD063B2B61009200D2D585 /* PanModalHeight.swift */; };
+		61AD06502B61009200D2D585 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD063C2B61009200D2D585 /* PanModalPresentable+UIViewController.swift */; };
+		61AD06512B61009200D2D585 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD063F2B61009200D2D585 /* UIViewController+PanModalPresenter.swift */; };
+		61AD06522B61009200D2D585 /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06402B61009200D2D585 /* PanModalPresenter.swift */; };
+		61AD06532B61009200D2D585 /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06422B61009200D2D585 /* PanModalPresentationDelegate.swift */; };
+		61AD06542B61009200D2D585 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06442B61009200D2D585 /* PanModalAnimator.swift */; };
+		61AD06552B61009200D2D585 /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06452B61009200D2D585 /* PanModalPresentationAnimator.swift */; };
+		61AD06562B61009200D2D585 /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06472B61009200D2D585 /* PanModalPresentationController.swift */; };
+		61AD06572B61009200D2D585 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06492B61009200D2D585 /* PanContainerView.swift */; };
+		61AD06582B61009200D2D585 /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD064A2B61009200D2D585 /* DimmedView.swift */; };
+		61AD065B2B61033B00D2D585 /* ZHHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD065A2B61033B00D2D585 /* ZHHeader.swift */; };
+		61AD06652B61055900D2D585 /* KYDigitScrollCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06612B61055900D2D585 /* KYDigitScrollCounter.swift */; };
+		61AD06662B61055900D2D585 /* NumberScrollCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06622B61055900D2D585 /* NumberScrollCounter.swift */; };
+		61AD06672B61055900D2D585 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06632B61055900D2D585 /* Extensions.swift */; };
+		61AD06682B61055900D2D585 /* ScrollableCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06642B61055900D2D585 /* ScrollableCounter.swift */; };
+		61AD066E2B610A8600D2D585 /* muyu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61AD066A2B610A8600D2D585 /* muyu3.mp3 */; };
+		61AD066F2B610A8600D2D585 /* muyu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61AD066B2B610A8600D2D585 /* muyu4.mp3 */; };
+		61AD06702B610A8600D2D585 /* muyu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61AD066C2B610A8600D2D585 /* muyu1.mp3 */; };
+		61AD06712B610A8600D2D585 /* muyu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61AD066D2B610A8600D2D585 /* muyu2.mp3 */; };
+		B13051D3CA6945859AC74BCF /* Pods_WoodenFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4355CEAC987E2C40AC8B952 /* Pods_WoodenFish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24F676BE37CBD720A63DD097 /* Pods-WoodenFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodenFish.release.xcconfig"; path = "Target Support Files/Pods-WoodenFish/Pods-WoodenFish.release.xcconfig"; sourceTree = "<group>"; };
 		61AD06162B60FFF100D2D585 /* WoodenFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodenFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AD06192B60FFF100D2D585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61AD061B2B60FFF100D2D585 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61AD061D2B60FFF100D2D585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61AD06202B60FFF100D2D585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61AD06222B60FFF300D2D585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AD06252B60FFF300D2D585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61AD06272B60FFF300D2D585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AD062D2B61001300D2D585 /* ZHMuYuVoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMuYuVoiceView.swift; sourceTree = "<group>"; };
+		61AD062E2B61001300D2D585 /* ZHMuYuVoiceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMuYuVoiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		61AD062F2B61001300D2D585 /* ZHMuYuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMuYuViewController.swift; sourceTree = "<group>"; };
+		61AD06302B61001300D2D585 /* ZHMuYuSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMuYuSettingViewController.swift; sourceTree = "<group>"; };
+		61AD06382B61009200D2D585 /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
+		61AD06392B61009200D2D585 /* PanModalPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalPresentable.swift; sourceTree = "<group>"; };
+		61AD063A2B61009200D2D585 /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
+		61AD063B2B61009200D2D585 /* PanModalHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalHeight.swift; sourceTree = "<group>"; };
+		61AD063C2B61009200D2D585 /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		61AD063D2B61009200D2D585 /* PanModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanModal.h; sourceTree = "<group>"; };
+		61AD063F2B61009200D2D585 /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
+		61AD06402B61009200D2D585 /* PanModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalPresenter.swift; sourceTree = "<group>"; };
+		61AD06422B61009200D2D585 /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
+		61AD06442B61009200D2D585 /* PanModalAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalAnimator.swift; sourceTree = "<group>"; };
+		61AD06452B61009200D2D585 /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
+		61AD06472B61009200D2D585 /* PanModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanModalPresentationController.swift; sourceTree = "<group>"; };
+		61AD06492B61009200D2D585 /* PanContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanContainerView.swift; sourceTree = "<group>"; };
+		61AD064A2B61009200D2D585 /* DimmedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmedView.swift; sourceTree = "<group>"; };
+		61AD065A2B61033B00D2D585 /* ZHHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHHeader.swift; sourceTree = "<group>"; };
+		61AD065C2B6103FB00D2D585 /* WoodenFish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WoodenFish-Bridging-Header.h"; sourceTree = "<group>"; };
+		61AD06612B61055900D2D585 /* KYDigitScrollCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDigitScrollCounter.swift; sourceTree = "<group>"; };
+		61AD06622B61055900D2D585 /* NumberScrollCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberScrollCounter.swift; sourceTree = "<group>"; };
+		61AD06632B61055900D2D585 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		61AD06642B61055900D2D585 /* ScrollableCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableCounter.swift; sourceTree = "<group>"; };
+		61AD066A2B610A8600D2D585 /* muyu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyu3.mp3; sourceTree = "<group>"; };
+		61AD066B2B610A8600D2D585 /* muyu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyu4.mp3; sourceTree = "<group>"; };
+		61AD066C2B610A8600D2D585 /* muyu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyu1.mp3; sourceTree = "<group>"; };
+		61AD066D2B610A8600D2D585 /* muyu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyu2.mp3; sourceTree = "<group>"; };
+		B4355CEAC987E2C40AC8B952 /* Pods_WoodenFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoodenFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83BD9DD4EBFB696BCDF6CF7 /* Pods-WoodenFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodenFish.debug.xcconfig"; path = "Target Support Files/Pods-WoodenFish/Pods-WoodenFish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13051D3CA6945859AC74BCF /* Pods_WoodenFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +99,8 @@
 			children = (
 				61AD06182B60FFF100D2D585 /* WoodenFish */,
 				61AD06172B60FFF100D2D585 /* Products */,
+				A238A0335EAD0FE332B86BC1 /* Pods */,
+				D95766BF9B7EBB21A792C0F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +115,139 @@
 		61AD06182B60FFF100D2D585 /* WoodenFish */ = {
 			isa = PBXGroup;
 			children = (
+				61AD06692B610A7600D2D585 /* Resources */,
+				61AD06352B61009200D2D585 /* Expand */,
+				61AD06302B61001300D2D585 /* ZHMuYuSettingViewController.swift */,
+				61AD062F2B61001300D2D585 /* ZHMuYuViewController.swift */,
+				61AD062E2B61001300D2D585 /* ZHMuYuVoiceCollectionViewCell.swift */,
+				61AD062D2B61001300D2D585 /* ZHMuYuVoiceView.swift */,
 				61AD06192B60FFF100D2D585 /* AppDelegate.swift */,
-				61AD061B2B60FFF100D2D585 /* SceneDelegate.swift */,
 				61AD061D2B60FFF100D2D585 /* ViewController.swift */,
+				61AD065A2B61033B00D2D585 /* ZHHeader.swift */,
 				61AD061F2B60FFF100D2D585 /* Main.storyboard */,
 				61AD06222B60FFF300D2D585 /* Assets.xcassets */,
 				61AD06242B60FFF300D2D585 /* LaunchScreen.storyboard */,
 				61AD06272B60FFF300D2D585 /* Info.plist */,
+				61AD065C2B6103FB00D2D585 /* WoodenFish-Bridging-Header.h */,
 			);
 			path = WoodenFish;
+			sourceTree = "<group>";
+		};
+		61AD06352B61009200D2D585 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06602B61055900D2D585 /* NumAnimation */,
+				61AD06362B61009200D2D585 /* PanModal */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		61AD06362B61009200D2D585 /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06372B61009200D2D585 /* Presentable */,
+				61AD063D2B61009200D2D585 /* PanModal.h */,
+				61AD063E2B61009200D2D585 /* Presenter */,
+				61AD06412B61009200D2D585 /* Delegate */,
+				61AD06432B61009200D2D585 /* Animator */,
+				61AD06462B61009200D2D585 /* Controller */,
+				61AD06482B61009200D2D585 /* View */,
+			);
+			path = PanModal;
+			sourceTree = "<group>";
+		};
+		61AD06372B61009200D2D585 /* Presentable */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06382B61009200D2D585 /* PanModalPresentable+Defaults.swift */,
+				61AD06392B61009200D2D585 /* PanModalPresentable.swift */,
+				61AD063A2B61009200D2D585 /* PanModalPresentable+LayoutHelpers.swift */,
+				61AD063B2B61009200D2D585 /* PanModalHeight.swift */,
+				61AD063C2B61009200D2D585 /* PanModalPresentable+UIViewController.swift */,
+			);
+			path = Presentable;
+			sourceTree = "<group>";
+		};
+		61AD063E2B61009200D2D585 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				61AD063F2B61009200D2D585 /* UIViewController+PanModalPresenter.swift */,
+				61AD06402B61009200D2D585 /* PanModalPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		61AD06412B61009200D2D585 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06422B61009200D2D585 /* PanModalPresentationDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		61AD06432B61009200D2D585 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06442B61009200D2D585 /* PanModalAnimator.swift */,
+				61AD06452B61009200D2D585 /* PanModalPresentationAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		61AD06462B61009200D2D585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06472B61009200D2D585 /* PanModalPresentationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		61AD06482B61009200D2D585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06492B61009200D2D585 /* PanContainerView.swift */,
+				61AD064A2B61009200D2D585 /* DimmedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61AD06602B61055900D2D585 /* NumAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				61AD06612B61055900D2D585 /* KYDigitScrollCounter.swift */,
+				61AD06622B61055900D2D585 /* NumberScrollCounter.swift */,
+				61AD06632B61055900D2D585 /* Extensions.swift */,
+				61AD06642B61055900D2D585 /* ScrollableCounter.swift */,
+			);
+			path = NumAnimation;
+			sourceTree = "<group>";
+		};
+		61AD06692B610A7600D2D585 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61AD066C2B610A8600D2D585 /* muyu1.mp3 */,
+				61AD066D2B610A8600D2D585 /* muyu2.mp3 */,
+				61AD066A2B610A8600D2D585 /* muyu3.mp3 */,
+				61AD066B2B610A8600D2D585 /* muyu4.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A238A0335EAD0FE332B86BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C83BD9DD4EBFB696BCDF6CF7 /* Pods-WoodenFish.debug.xcconfig */,
+				24F676BE37CBD720A63DD097 /* Pods-WoodenFish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D95766BF9B7EBB21A792C0F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4355CEAC987E2C40AC8B952 /* Pods_WoodenFish.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61AD062A2B60FFF300D2D585 /* Build configuration list for PBXNativeTarget "WoodenFish" */;
 			buildPhases = (
+				90DA51D2852270EB328201ED /* [CP] Check Pods Manifest.lock */,
 				61AD06122B60FFF100D2D585 /* Sources */,
 				61AD06132B60FFF100D2D585 /* Frameworks */,
 				61AD06142B60FFF100D2D585 /* Resources */,
+				88AA122C313ECCA068204E59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +284,7 @@
 				TargetAttributes = {
 					61AD06152B60FFF100D2D585 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -127,20 +313,85 @@
 			files = (
 				61AD06262B60FFF300D2D585 /* LaunchScreen.storyboard in Resources */,
 				61AD06232B60FFF300D2D585 /* Assets.xcassets in Resources */,
+				61AD06702B610A8600D2D585 /* muyu1.mp3 in Resources */,
+				61AD066E2B610A8600D2D585 /* muyu3.mp3 in Resources */,
 				61AD06212B60FFF100D2D585 /* Main.storyboard in Resources */,
+				61AD06712B610A8600D2D585 /* muyu2.mp3 in Resources */,
+				61AD066F2B610A8600D2D585 /* muyu4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88AA122C313ECCA068204E59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoodenFish/Pods-WoodenFish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DA51D2852270EB328201ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoodenFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61AD06122B60FFF100D2D585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AD06522B61009200D2D585 /* PanModalPresenter.swift in Sources */,
+				61AD06562B61009200D2D585 /* PanModalPresentationController.swift in Sources */,
+				61AD06582B61009200D2D585 /* DimmedView.swift in Sources */,
 				61AD061E2B60FFF100D2D585 /* ViewController.swift in Sources */,
 				61AD061A2B60FFF100D2D585 /* AppDelegate.swift in Sources */,
-				61AD061C2B60FFF100D2D585 /* SceneDelegate.swift in Sources */,
+				61AD06502B61009200D2D585 /* PanModalPresentable+UIViewController.swift in Sources */,
+				61AD06332B61001300D2D585 /* ZHMuYuViewController.swift in Sources */,
+				61AD06322B61001300D2D585 /* ZHMuYuVoiceCollectionViewCell.swift in Sources */,
+				61AD06552B61009200D2D585 /* PanModalPresentationAnimator.swift in Sources */,
+				61AD064F2B61009200D2D585 /* PanModalHeight.swift in Sources */,
+				61AD06342B61001300D2D585 /* ZHMuYuSettingViewController.swift in Sources */,
+				61AD06542B61009200D2D585 /* PanModalAnimator.swift in Sources */,
+				61AD06662B61055900D2D585 /* NumberScrollCounter.swift in Sources */,
+				61AD06512B61009200D2D585 /* UIViewController+PanModalPresenter.swift in Sources */,
+				61AD064C2B61009200D2D585 /* PanModalPresentable+Defaults.swift in Sources */,
+				61AD065B2B61033B00D2D585 /* ZHHeader.swift in Sources */,
+				61AD06652B61055900D2D585 /* KYDigitScrollCounter.swift in Sources */,
+				61AD06572B61009200D2D585 /* PanContainerView.swift in Sources */,
+				61AD06672B61055900D2D585 /* Extensions.swift in Sources */,
+				61AD064E2B61009200D2D585 /* PanModalPresentable+LayoutHelpers.swift in Sources */,
+				61AD064D2B61009200D2D585 /* PanModalPresentable.swift in Sources */,
+				61AD06532B61009200D2D585 /* PanModalPresentationDelegate.swift in Sources */,
+				61AD06312B61001300D2D585 /* ZHMuYuVoiceView.swift in Sources */,
+				61AD06682B61055900D2D585 /* ScrollableCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +538,15 @@
 		};
 		61AD062B2B60FFF300D2D585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83BD9DD4EBFB696BCDF6CF7 /* Pods-WoodenFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCFARS5874;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WoodenFish/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +563,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.self-discipline.com.WoodenFish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WoodenFish/WoodenFish-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,12 +572,15 @@
 		};
 		61AD062C2B60FFF300D2D585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F676BE37CBD720A63DD097 /* Pods-WoodenFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCFARS5874;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WoodenFish/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +588,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.self-discipline.com.WoodenFish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WoodenFish/WoodenFish-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

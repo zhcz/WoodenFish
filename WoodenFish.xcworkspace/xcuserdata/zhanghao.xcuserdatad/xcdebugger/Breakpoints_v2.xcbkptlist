@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4FB215CC-B28A-4C97-BD19-C33379C24842"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C63C9AE-F918-4F4E-B6A7-4A5A95684CEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "settingBtnAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C63C9AE-F918-4F4E-B6A7-4A5A95684CEF - d59abf9862af2f74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool, Swift.Bool, Swift.Int, __C.UIColor, Swift.String, Swift.Bool, Swift.Double, Swift.Int, Swift.String) -&gt; () in WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "7C63C9AE-F918-4F4E-B6A7-4A5A95684CEF - d59abf9862af2f95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool, Swift.Bool, Swift.Int, __C.UIColor, Swift.String, Swift.Bool, Swift.Double, Swift.Int, Swift.String) -&gt; () in WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "7C63C9AE-F918-4F4E-B6A7-4A5A95684CEF - 1e8e7dfa5c74518a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Bool, Swift.Int, __C.UIColor, Swift.String, Swift.Bool, Swift.Double, Swift.Int, Swift.String) -&gt; () in WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13818B3C-BF80-496A-B33F-F233F4A8FD77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13818B3C-BF80-496A-B33F-F233F4A8FD77 - e0578870ff6bbf21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "367"
+                  endingLineNumber = "367"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "13818B3C-BF80-496A-B33F-F233F4A8FD77 - 2383bd4bc1941b1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "367"
+                  endingLineNumber = "367"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "13818B3C-BF80-496A-B33F-F233F4A8FD77 - e0578870ff6bbee3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "369"
+                  endingLineNumber = "369"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B8A5037-CFF8-444F-86C6-CA57750D6581"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "settingBtnAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B8A5037-CFF8-444F-86C6-CA57750D6581 - ea11b72abd83c2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "8B8A5037-CFF8-444F-86C6-CA57750D6581 - ea11b72abd83c2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3199C901-2D5D-4DED-B46A-B66CF8388ADE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "setVoice()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3199C901-2D5D-4DED-B46A-B66CF8388ADE - c7cf6b6176b075e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.setVoice() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "3199C901-2D5D-4DED-B46A-B66CF8388ADE - c7cf6b6176b075e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.setVoice() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FC3D630-A894-4EE3-BFB5-57F400BA17B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuVoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9FC3D630-A894-4EE3-BFB5-57F400BA17B9 - a66aefe4a4e7875c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "9FC3D630-A894-4EE3-BFB5-57F400BA17B9 - a66aefe4a4e7858a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "556">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2666FB8-34AB-4E6D-9354-EA0843DA37D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "settingBtnAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2666FB8-34AB-4E6D-9354-EA0843DA37D6 - ea11b72abd83c46a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+               <Location
+                  uuid = "C2666FB8-34AB-4E6D-9354-EA0843DA37D6 - ea11b72abd83c40b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+               <Location
+                  uuid = "C2666FB8-34AB-4E6D-9354-EA0843DA37D6 - ea11b72abd83c40b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80D2DC82-EEBA-4693-B606-70C17E73379D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80D2DC82-EEBA-4693-B606-70C17E73379D - ed1993728471ceeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.vibrateSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "387"
+                  endingLineNumber = "387"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "80D2DC82-EEBA-4693-B606-70C17E73379D - 2383bd4bc194148d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "386"
+                  endingLineNumber = "386"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "setVoice()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - 4b71ea453cf33066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceView.getter : WoodenFish.ZHMuYuVoiceView"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - 2bb7be10f88dac95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; WoodenFish.ZHMuYuVoiceView in WoodenFish.ZHMuYuSettingViewController.voiceView.getter : WoodenFish.ZHMuYuVoiceView"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - 8f2b0ed711ccd86a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceView.setter : WoodenFish.ZHMuYuVoiceView"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - 8282840d936ae61b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceView.modify : WoodenFish.ZHMuYuVoiceView"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - ac3acad6c8caca2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceView.modify : WoodenFish.ZHMuYuVoiceView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "80C57C36-CDEF-4650-BDB0-678A0A7B94ED - c7cf6b6176b075c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.setVoice() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFBA22B9-BAA3-497D-B01F-804A03DA7E81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuVoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EFBA22B9-BAA3-497D-B01F-804A03DA7E81 - a66aefe4a4e787f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "EFBA22B9-BAA3-497D-B01F-804A03DA7E81 - a66aefe4a4e78627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBDAA0B7-EAEA-43B3-A3FD-C6F8C386E9DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuVoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DBDAA0B7-EAEA-43B3-A3FD-C6F8C386E9DC - a66aefe4a4e7877d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "DBDAA0B7-EAEA-43B3-A3FD-C6F8C386E9DC - a66aefe4a4e785ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C79E72D-192B-499F-BEAF-82877FDC0F33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuVoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C79E72D-192B-499F-BEAF-82877FDC0F33 - a66aefe4a4e786a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "732">
+               </Location>
+               <Location
+                  uuid = "4C79E72D-192B-499F-BEAF-82877FDC0F33 - a66aefe4a4e785e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuVoiceView.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuVoiceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55967D22-2933-4E40-8C4C-6E2422DE75CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55967D22-2933-4E40-8C4C-6E2422DE75CE - 5f96c432033e0cf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "369"
+                  endingLineNumber = "369"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "55967D22-2933-4E40-8C4C-6E2422DE75CE - e0578870ff6bbee3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "369"
+                  endingLineNumber = "369"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "435A2E85-997A-4D52-84A3-DC39F724F3FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "435A2E85-997A-4D52-84A3-DC39F724F3FF - 5f96c432033e0cd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "435A2E85-997A-4D52-84A3-DC39F724F3FF - e0578870ff6bbec2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "435A2E85-997A-4D52-84A3-DC39F724F3FF - 5f96c432033e0c8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADA01780-5672-47B5-8302-5C101AD77F72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ADA01780-5672-47B5-8302-5C101AD77F72 - e0578870ff6bb1f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "376"
+                  endingLineNumber = "376"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "ADA01780-5672-47B5-8302-5C101AD77F72 - e0578870ff6bb1f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "376"
+                  endingLineNumber = "376"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "ADA01780-5672-47B5-8302-5C101AD77F72 - dd94417bdf7159c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SnapKit.ConstraintMaker) -&gt; () in closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "377"
+                  endingLineNumber = "377"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9487E92E-EAE1-4CE2-B56D-DDE39378EE04"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9487E92E-EAE1-4CE2-B56D-DDE39378EE04 - e0578870ff6bbe9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "9487E92E-EAE1-4CE2-B56D-DDE39378EE04 - 5f96c432033e0c8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3135DB48-954D-4169-844C-4A9367B85634"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3135DB48-954D-4169-844C-4A9367B85634 - 2383bd4bc19414cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "384"
+                  endingLineNumber = "384"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "3135DB48-954D-4169-844C-4A9367B85634 - e0578870ff6bb0f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "384"
+                  endingLineNumber = "384"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D65E4ED1-322E-4FE5-BA3E-671D20BF50F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "settingBtnAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D65E4ED1-322E-4FE5-BA3E-671D20BF50F7 - ea11b72abd83c535"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+               <Location
+                  uuid = "D65E4ED1-322E-4FE5-BA3E-671D20BF50F7 - ea11b72abd83c535"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoodenFish.ZHMuYuViewController.settingBtnAction() -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5109A405-07A1-4211-8484-D6D9462B8F0A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
+            landmarkName = "voiceSwitchAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5109A405-07A1-4211-8484-D6D9462B8F0A - e0578870ff6bb174"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "380"
+                  endingLineNumber = "380"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "5109A405-07A1-4211-8484-D6D9462B8F0A - e0578870ff6bb174"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WoodenFish.ZHMuYuSettingViewController.voiceSwitchAction(sender: __C.UISwitch) -&gt; ()"
+                  moduleName = "WoodenFish"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanghao/Documents/GitHub/WoodenFish/WoodenFish/ZHMuYuSettingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "380"
+                  endingLineNumber = "380"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA536470-66ED-4E93-9C73-C544BBBE25C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoodenFish/ZHMuYuVoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
